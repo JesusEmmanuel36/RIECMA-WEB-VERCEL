@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const botonVision = document.getElementById("botonVision")
         const botonServicios = document.getElementById("botonServicios")
         const botonAdoptar = document.getElementById("botonAdoptar")
+        
 
         const textoVisionCel = "BUSCAS DONAR?"
         const textoVisionPC = "Cada donativo se convierte en esperanza para ellos."
@@ -152,6 +153,22 @@ document.addEventListener("DOMContentLoaded", () => {
         botonDonaMenu.addEventListener("click", () =>{
             window.location.href = "donativos"
         })
+
+            botonMision.addEventListener("click", () => {
+                window.location.href = "/#mision";
+            });
+
+            botonVision.addEventListener("click", () => {
+                window.location.href = "/#vision";
+            });
+
+            botonServicios.addEventListener("click", () => {
+                window.location.href = "/#servicios";
+            });
+
+            botonAdoptar.addEventListener("click", () => {
+                window.location.href = "/#adoptar";
+            });
 
  
 
